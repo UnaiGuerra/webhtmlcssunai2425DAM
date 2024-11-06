@@ -250,7 +250,7 @@ h1 {
 }
 #listas .customdefi dt{
     display: inline;
-    background-color: chartreuse;
+    background-color: rgb(46, 2, 159);
     font-size: 24px;
     font-weight: bold;
 }
