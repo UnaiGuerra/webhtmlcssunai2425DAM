@@ -1,11 +1,12 @@
 body {
     margin: 0;
-    background: #363333;
+    background: #353333;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 * {
     box-sizing: border-box;
-    color: rgb(39, 245, 2);
+    color: rgb(23, 162, 4);
 }
 
 /* For desktop: */
@@ -102,7 +103,7 @@ body {
 }
 
 .shadow {
-    box-shadow: 0 0 20px gainsboro;
+    box-shadow: 0 0 20px rgb(38, 244, 6);
     border-radius: 10px;
 }
 nav ul{
@@ -208,7 +209,7 @@ h1 {
 
 .etiqueta{
     font-size: 28px;
-    color: darkgreen;
+    color: rgb(249, 226, 16);
     font-weight: bold;
     
 }
@@ -216,6 +217,10 @@ h1 {
     color: rgb(92, 255, 92);
     text-decoration: underline;
     font-size: 24px;
+}
+
+a:hover img {
+    transform: scale(1.1); /* Escala la imagen al 110% */
 }
 #listas .customdes li{
     list-style: square;
@@ -342,6 +347,7 @@ h1 {
     float: right;
 }
 
+
 .col3 {
     width: 33.3%;
     float: left;
@@ -359,4 +365,25 @@ audio {
     margin: 0 auto;
 }
 
+input[type="button"] {
+    background-color: green; 
+    color: black;           
+    border: none;          
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+input[type="button"]:hover {
+    background-color: darkgreen;
+}
 
+.centrado {
+    display: block;
+    margin: auto;
+}
+
+.centrado:hover{
+    transform: scale(1.05);
+}
