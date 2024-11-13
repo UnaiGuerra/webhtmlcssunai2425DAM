@@ -340,13 +340,21 @@ a:hover img {
     background-color: #28c8c8;
 }
 
-#formularios .formlogin{
+.formlogin {
     float: left;
+    width: 50%;
 }
-#formularios .formregister{
+.formregister {
     float: right;
+    width: 50%;
 }
-
+.cb {
+    clear: both;
+}
+.formhtml5 {
+    width: 50%;
+    margin: 0 auto;
+}
 
 .col3 {
     width: 33.3%;
@@ -404,3 +412,4 @@ input[type="text"],
         select {
             color: rgb(0, 0, 0);
         }
+        
